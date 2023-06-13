@@ -35,31 +35,6 @@
 5. 测试：POST请求 https://自定义域名/api/openai/v1/chat/completions?code=xxx&token=xxx，
    ![POST请求](./docs/images/post.jpg)
 
-## 保持更新
-
-如果你按照上述步骤一键部署了自己的项目，可能会发现总是提示“存在更新”的问题，这是由于 Vercel 会默认为你创建一个新项目而不是 fork 本项目，这会导致无法正确地检测更新。
-推荐你按照下列步骤重新部署：
-
-- 删除掉原先的仓库；
-- 使用页面右上角的 fork 按钮，fork 本项目；
-- 在 Vercel 重新选择并部署，[请查看详细教程](./docs/vercel-cn.md#如何新建项目)。
-
-### 打开自动更新
-
-> 如果你遇到了 Upstream Sync 执行错误，请手动 Sync Fork 一次！
-
-当你 fork 项目之后，由于 Github 的限制，需要手动去你 fork 后的项目的 Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新：
-
-![自动更新](./docs/images/enable-actions.jpg)
-
-![启用自动更新](./docs/images/enable-actions-sync.jpg)
-
-### 手动更新代码
-
-如果你想让手动立即更新，可以查看 [Github 的文档](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) 了解如何让 fork 的项目与上游代码同步。
-
-你可以 star/watch 本项目或者 follow 作者来及时获得新功能更新通知。
-
 ## 配置页面访问密码
 
 > 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
