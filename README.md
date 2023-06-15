@@ -151,10 +151,10 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 ## 加入我们
 <div>
-<img src="./docs/images/wx.jpg" style="width: 45%" />
+<img src="./docs/images/wx1.jpg" style="width: 45%" />
+<img src="./docs/images/wxg1.jpg" style="width: 45%" />
 <img src="./docs/images/qq.jpg" style="width: 45%" />
 <img src="./docs/images/qqg.jpg" style="width: 45%" />
-<img src="./docs/images/wxg.jpg" style="width: 45%" />
 </div>
 
 ## 最后
